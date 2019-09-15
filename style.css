@@ -1,0 +1,185 @@
+ body {
+   background-size: 250px;
+   height: 100%;
+   background-repeat: round;
+   background-image: url(tile.jpg);
+ }
+
+ form {
+   background-image: url(formbg.jpg);
+   margin-top: 50px;
+   font-family: 'Indie Flower', cursive;
+   max-width: 669px;
+ }
+
+ .mytitle {
+   padding-top: 25px;
+   font-family: 'Indie Flower', cursive;
+   font-size: 60px;
+ }
+
+ .missionText {
+   background: transparent;
+   margin-top: 50px;
+   font-family: 'Indie Flower', cursive;
+   font-size: 35px;
+   max-width: 597px;
+   margin-left: 75px;
+   border: none;
+   outline: none;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+ }
+
+ .missionText:focus {
+   background: transparent;
+   margin-top: 50px;
+   font-family: 'Indie Flower', cursive;
+   font-size: 35px;
+   max-width: 597px;
+   margin-left: 75px;
+   border: none;
+   outline: none;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+ }
+
+ input {
+   background: rgba(0, 0, 0, 0);
+   border: none;
+   outline: none;
+ }
+
+ input[type="text"] {
+   background: rgba(0, 0, 0, 0);
+   border: none;
+   outline: none;
+ }
+
+ .bootstrap-iso .formden_header h2,
+ .bootstrap-iso .formden_header p,
+ .bootstrap-iso form {
+   font-family: 'Indie Flower', cursive;
+   color: black
+ }
+
+ .bootstrap-iso form button,
+ .bootstrap-iso form button:hover {
+   color: white !important;
+ }
+
+ .asteriskField {
+   color: red;
+ }
+
+ .yellowBoard {
+   background-image: url(notebg.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+ }
+
+ .myblock {
+   margin-left: 28%;
+   height: 250px;
+   width: 180px;
+ }
+
+ .divarea {
+   background-image: url(notebg.png);
+   background-position: center;
+   background-size: 100%;
+   background-repeat: repeat;
+   min-width: 250px;
+   max-width: 250px;
+   max-height: 280px;
+   min-height: 280px;
+ }
+
+ .missionArea {
+   min-width: 160px;
+   max-width: 160px;
+   min-height: 150px;
+   max-height: 150px;
+   margin-top: 15px;
+   font-family: 'Indie Flower', cursive;
+   overflow-y: auto;
+ }
+
+ .missionHour {
+   background: white;
+   max-width: 86px;
+   font-family: 'Indie Flower', cursive;
+ }
+
+ .missionDate {
+   background: white;
+   max-width: 86px;
+   font-family: 'Indie Flower', cursive;
+ }
+
+ .police {
+   font-family: 'Indie Flower', cursive;
+ }
+
+ .FadeIn {
+   animation: opac 4.2s
+ }
+
+ @keyframes opac {
+   from {
+     opacity: 0
+   }
+
+   to {
+     opacity: 1
+   }
+ }
+
+ .exit {
+   font-size: 22px;
+   position: absolute;
+   top: 14px;
+   left: 188px;
+   opacity: 0;
+ }
+
+ .exit:hover {
+   font-size: 22px;
+   position: absolute;
+   top: 14px;
+   left: 188px;
+   animation: opac 2.2s
+ }
+
+ @keyframes opac {
+   from {
+     opacity: 0
+   }
+
+   to {
+     opacity: 1
+   }
+ }
+
+ ::-webkit-scrollbar {
+   width: 10px;
+ }
+
+ ::-webkit-scrollbar-track {
+   background: #f1f1f1;
+ }
+
+ ::-webkit-scrollbar-thumb {
+   background: #888;
+ }
+
+ ::-webkit-scrollbar-thumb:hover {
+   background: #555;
+ }
+
+ .formLeft {
+   margin-bottom: 1rem;
+   margin-left: 61px;
+ }
